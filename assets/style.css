@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #218380;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 1.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#leaderboard {
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header p {
+  padding: 0 !important;
+}
+
+.timer_sec {
+  margin-right: 1rem;
+}
+
+div {
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px grey;
+  max-width: 60%;
+  margin: 10% auto;
+  padding: 3rem;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.p {
+  margin: 10px auto;
+}
+
+button {
+  background-color: #218380;
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+li.highscores_list {
+  margin: 0 3rem;
+}
+
+input {
+  width: 13%;
+  padding: 0.3em;
+}
+
+.option_list li {
+  background-color: #218380;
+  color: #ffffff;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.option_status {
+  font-size: 14px;
+  border-top: 1px solid #919499;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.highscores,
+.done,
+.que {
+  display: none;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  color: black;
+  background-color: lightgrey;
+}
+
+.submit {
+  background-color: #218380;
+  color: #ffffff;
+}
+
+.highscores h1 {
+  margin-bottom: 1rem;
+}
