@@ -143,7 +143,6 @@ answers.forEach((answer) => {
 
     if (ansStatus.textContent === "Correct!") {
       updateScore(SCORE_POINT);
-      console.log(score);
     } else {
       timer -= 10;
     }
